@@ -1,0 +1,24 @@
+@import"variables";
+
+.contenedor_preguntas{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    .contenedor_preguntas-pregunta{
+        display: flex;
+        width: 100%;
+        h2{
+            width: 80%;
+            font-size: $fontsizeparrafo;
+            background-color: aqua;
+            // justify-content: flex-end;
+        }
+        img{
+            display: none;
+        }
+        p{
+            display: none;
+        }
+    }
+}
