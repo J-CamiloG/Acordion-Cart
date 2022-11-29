@@ -1,41 +1,60 @@
 body {
-  height: 100vh;
-  width: 100%;
-  background-image: linear-gradient(#309482, #337669, #316158, #2c4540);
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.contenedor {
-  width: 300px;
-  height: 550px;
-  background-color: #1d423c;
-  border-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; }
+  height: 100vh;
+  background-color: black; }
 
-.contenedor_encabezado img {
-  width: 30px; }
-.contenedor_encabezado h1 {
-  color: #efe9e9; }
-
-.contenedor_preguntas {
+.carta {
+  border-radius: 25px;
+  background-color: #18595d;
+  width: 350px;
+  height: 700px;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
   flex-direction: column; }
-  .contenedor_preguntas .contenedor_preguntas-pregunta {
+
+.carta-header {
+  text-align: center;
+  height: 150px; }
+  .carta-header img {
+    position: relative;
+    height: 210px;
+    bottom: 120px; }
+  .carta-header h1 {
+    font-family: "Kumbh Sans", sans-serif;
+    color: #fcf6f6;
+    position: relative;
+    bottom: 100px; }
+
+.carta-main {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  margin: 70px 18px 0px 18px; }
+  .carta-main .main_pregunta {
     display: flex;
-    width: 100%; }
-    .contenedor_preguntas .contenedor_preguntas-pregunta h2 {
-      width: 80%;
-      font-size: 1rem;
-      background-color: aqua; }
-    .contenedor_preguntas .contenedor_preguntas-pregunta img {
-      display: none; }
-    .contenedor_preguntas .contenedor_preguntas-pregunta p {
-      display: none; }
+    justify-content: center;
+    align-items: center; }
+    .carta-main .main_pregunta h2 {
+      font-family: "Kumbh Sans", sans-serif;
+      font-size: 0.8rem;
+      color: #51b48b; }
+  .carta-main .main_svg {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .carta-main .main_svg #svg {
+      height: 16px;
+      fill: #17e7bd; }
+  .carta-main p {
+    background-color: aqua; }
+
+.carta-respuesta {
+  display: none;
+  margin: 0px 18px; }
+  .carta-respuesta p {
+    font-family: "Kumbh Sans", sans-serif;
+    color: #aba3a3;
+    font-size: 0.7rem; }
 
 /*# sourceMappingURL=estilo.css.map */

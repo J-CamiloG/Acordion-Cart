@@ -1,0 +1,10 @@
+@import"variables";
+
+.carta{
+    border-radius: 25px;
+    background-color: $colorcarta;
+    width: 350px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}

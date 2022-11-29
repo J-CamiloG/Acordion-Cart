@@ -7,37 +7,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="/js/main.js" defer ></script>
     <link rel="stylesheet" href="/css/estilo.css">
-    <link rel="stylesheet" href="/css/resetear.css">
-    <title>Acordion Cart</title>
+    <title>Document</title>
 </head>
 <body>
-    <main class="contenedor" >
-        <!-- img y h1 de la carta  -->
-        <section class="contenedor_encabezado">
+    <main class="carta" >
+        <!-- carta header  -->
+        <section class="carta-header" >
             <img src="/images/illustration-woman-online-mobile.svg" alt="" >
             <h1>FAQ</h1>
         </section>
-        <!-- preguntas de la carta  -->
-        <section class="contenedor_preguntas" >
-            <article class="contenedor_preguntas-pregunta" >
-                <h2>What is maximum file upload size ?</h2><img src="/images/icon-arrow-down.svg" alt="">
-                <p>You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
+        <!-- carta main -->
+        <section class="carta-main" >
+            <!-- pregunta de la carta -->
+            <article class="main_pregunta" >
+                <h2>What is maximum file upload size ?</h2>
+                <!-- svg carta -->
             </article>
-            <article class="contenedor_preguntas-pregunta" >
-                <h2>What is the maximum file upload size? </h2> <img src="/images/icon-arrow-down.svg" alt="">
-                <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
-            </article>
-            <article class="contenedor_preguntas-pregunta" >
-                <h2>How do I reset my password?</h2><img src="/images/icon-arrow-down.svg" alt="">
-                <p>Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
-            </article>
-            <article class="contenedor_preguntas-pregunta" >
-                <h2>Can I cancel my subscription?  </h2><img src="/images/icon-arrow-down.svg" alt="">
-                <p>Yes! Send us a message and we’ll process your request no questions asked.</p></article>
-            <article class="contenedor_preguntas-pregunta" >
-                <h2>Do you provide additional support?  </h2><img src="/images/icon-arrow-down.svg" alt="">
-                <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p></article>
+            
+            <div class="main_svg" >
+                <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/>
+                </svg>
+            </div>
+        </section>
+        <!-- repuesta en caso de hacer click en ver respuesta -->
+        <section id="carta-respuesta" class="carta-respuesta" >
+            <p>You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
         </section>
     </main>
 </body>

@@ -1,0 +1,31 @@
+@import"variables";
+@import"animation";
+
+.carta-main{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    margin: 70px 18px 0px 18px;
+    .main_pregunta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2{
+            font-family: $tipodeletra;
+            font-size: $texth2;
+            color: $colorh2;
+        }
+    }
+    .main_svg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        #svg{
+            height: 16px;
+            fill: $colorfill;
+        }
+    }
+    p{
+        background-color: aqua;
+    }
+}
