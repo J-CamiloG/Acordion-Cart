@@ -2,10 +2,12 @@
 @import"animation";
 
 .carta-main{
-    display: flex;
-    justify-content: space-between;
-    height: auto;
-    margin: 70px 18px 0px 18px;
+    .carta-container{
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        margin: 0px 18px 18px 18px;
+    }
     .main_pregunta{
         display: flex;
         justify-content: center;
@@ -20,12 +22,23 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        #svg{
+        cursor: pointer;
+        .svg{
             height: 16px;
             fill: $colorfill;
         }
+        .main_svg-ocultar{
+            .svg-ocultar{
+                display: none;
+                height: 16px;
+                fill: $colorfill;
+            }
+        }
     }
-    p{
-        background-color: aqua;
+    .carta-respuesta{
+        p{
+            font-family: $tipodeletra;
+            color: $colop;
+        }
     }
 }

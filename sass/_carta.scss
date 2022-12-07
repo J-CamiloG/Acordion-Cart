@@ -3,8 +3,12 @@
 .carta{
     border-radius: 25px;
     background-color: $colorcarta;
-    width: 350px;
-    height: 700px;
+    width: 340px;
+    height: auto;
     display: flex;
     flex-direction: column;
+    padding-bottom: 30px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(146, 61, 226, 0.676);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(134, 64, 205, 0.667);
+    box-shadow: 10px 10px 5px 0px rgba(126, 50, 196, 0.64);
 }
